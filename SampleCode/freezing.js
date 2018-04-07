@@ -1,4 +1,5 @@
-class Person {
+const Person = require('./Person')
+exports.Person = class Person {
   constructor(firstname, lastname, ssn) {
     this._firstname = firstname
     this._lastname = lastname
