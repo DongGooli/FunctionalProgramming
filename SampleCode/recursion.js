@@ -26,6 +26,7 @@ for(let i =0; i< nums.length; ++i) {
 
 
 _(nums).reduce((acc, current) => acc + current, 0);
+
 function sum(arr, acc = 0) {
   if(_.isEmpty(arr)) { //기저케이스 종료조건
     return 0;
