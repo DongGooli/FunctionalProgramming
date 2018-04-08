@@ -5,7 +5,7 @@ module.exports = class Person {
     this._ssn = ssn
     this._address = null
     this._birthYear = null
-    this._fullname = nulㅣ
+    this._fullname = null
   }
 
   get ssn() {
@@ -28,6 +28,9 @@ module.exports = class Person {
   }
   set address(addr) {
     return this._address = addr
+  }
+  fullname(firstname , lastname) {
+     return `${_firstname} + ${lastname}`
   }
   toString() {
     return `Person(${this._firstname}, ${this._lastname}`
