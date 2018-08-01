@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Dongineer/FunctionalProgramming#readme",
   "dependencies": {
-    "lodash": "^4.17.5"
+    "lodash": "^4.17.5",
+    "moment": "^2.22.0"
   }
 }
