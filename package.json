@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "_sync": "git status && git pull"
+    "_sync": "node test"
   },
   "repository": {
     "type": "git",
